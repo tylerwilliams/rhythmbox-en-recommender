@@ -1,0 +1,9 @@
+[RB Plugin]
+Loader=python
+Module=genius
+IAge=1
+Name=genius
+Description=The Echo Nest Playlist Plugin
+Authors=Tyler Williams <williams.tyler@gmail.com>
+Copyright=Copyright © 2011 Tyler Williams
+Website=http://the.echonest.com
