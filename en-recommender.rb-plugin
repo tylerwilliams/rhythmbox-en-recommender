@@ -1,9 +1,9 @@
 [RB Plugin]
 Loader=python
-Module=genius
+Module=rhythmbox-en-recommender
 IAge=1
-Name=genius
-Description=The Echo Nest Playlist Plugin
+Name=Echo Nest Recommender
+Description=The Echo Nest Recommender Plugin
 Authors=Tyler Williams <williams.tyler@gmail.com>
 Copyright=Copyright © 2011 Tyler Williams
 Website=http://the.echonest.com

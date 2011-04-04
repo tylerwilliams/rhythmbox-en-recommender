@@ -19,7 +19,7 @@ ui_toolbar_button = """
 
 """
 
-class Genius(rb.Plugin):
+class Recommender(rb.Plugin):
     def __init__(self):
         rb.Plugin.__init__(self)
 
@@ -73,7 +73,7 @@ class Genius(rb.Plugin):
         del self.shell
 
     def create_configure_dialog(self):
-        glade_file = self.find_file("echonest-recommender-prefs.glade")
+        glade_file = self.find_file("en-recommender-prefs.glade")
         dialog = ConfigureDialog(glade_file, gconf_keys, self).get_dialog()
         dialog.present()
         return dialog
